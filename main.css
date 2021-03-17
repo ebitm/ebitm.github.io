@@ -1,16 +1,35 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: rgb(121, 208, 128);
+    color: rgb(105, 131, 177);
 }
-.custom-division { 
-    border: 1px solid rgb(121, 208, 128); 
-    margin: auto;
+.bottom-line { 
+    border-bottom: 3px solid rgb(105, 131, 177); 
+    margin: 0.1px;
     text-align: center;
 }
 
 .grid-container {
+    border: 1px solid rgb(1,1,1);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 10fr;
     column-gap: 10px;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: rgb(4, 4, 4);
+}
+
+.img {
+    width:100px; 
+    height: auto;
+    margin: 0 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgb(1, 1, 1);
+    float: left;
 }
